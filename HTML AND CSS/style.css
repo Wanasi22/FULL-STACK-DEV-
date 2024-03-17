@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    background-color: pink;
+}
+
+p {
+    color: blue;
+}
+
+#section1 {
+    background-color: green;
+
+}
+
+#section2 {
+    background-color: red;
+}
+
+#section3 {
+    background-color: rgb(4, 253, 0);
+}
+
+
+
+.header {
+    background-color: greenyellow;
+}
+
+.line1 {
+    font-size: larger;
+    font-weight: 1000;
+    color: rgb(255, 0, 4);
+}
+
+.line2 {
+    font-size: larger;
+    font-weight: 1000;
+    color: rgb(255, 132, 0);
+}
+
+.line3 {
+    font-size: larger;
+    font-weight: 2000;
+    color: black;
+}
+.header a {
+    text-decoration: double;
+}
+.link1 a:visited {
+    color: orangered;
+}
+.link1 a:active {
+    color: rgba(255, 9, 153, 0.959);
+}
+ul {
+list-style: none;
+}
+ol {
+list-style:circle;
+}
+.box {
+    border: 3px solid green;
+    padding-left: 18px;
+    padding-right: 15px;
+    width:300px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: pink;
+    overflow:scroll;
+}
+ 

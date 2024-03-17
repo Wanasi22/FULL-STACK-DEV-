@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 400px;
+    border-left: 400px;
+    border-radius: 400px;
+    background-color:rgb(5, 5, 78) ;
+
+}
+.container{
+    display: flex;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+
+    
+}
+.left {
+outline: 1px solid ;
+}
+
