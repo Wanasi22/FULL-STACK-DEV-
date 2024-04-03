@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add subtract,multiply,divid</title>
+    <script>
+      function addNum(){
+        var val1 = parseInt(documnet.getElementbyId("value1").value);
+        var val2 = parseInt(document.getElementById("value2").value);
+        var output = document.getElementById("output"); 
+        output.value = val1+val2;
+
+          }  
+    
+    </script>
+</head>
+<body>
+    <h1>Addision of two numbers</h1>
+   <di>
+    first nmumber : <input type="text" name="value1" value="" id="value1" >
+    <br></br>
+    Second number : <input type="text" name="value2" value="" id="value1">
+    <br></br>
+   <input type="button" id="output" value="add" name="submit" onclick="addNum()">
+   <br></br>
+   <input type="button" id="output" value="subtract" name="submit" onclick="addNum()">
+   <br></br>
+   <input type="button" id="output" value="divid" name="submit" onclick="addNum()">
+   <br></br>
+    Output : <input type="text" id="output"  name="output" value="">
+</div>
+</body>
+</html>
